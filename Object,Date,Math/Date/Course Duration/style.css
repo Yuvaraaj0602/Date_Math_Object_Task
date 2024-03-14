@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 60dvh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(to left,lightblue,rgba(47, 227, 191, 0.772));
+}
+section{
+    background-color: aquamarine;
+    padding: 2em;
+    border-radius: 2em;
+}
+h1{
+    text-align: center;
+}
+section div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+input,select{
+    margin: 0.5em;
+    padding: 5px;
+    width: auto;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+#btnid{
+    width: 4em;
+    text-align: center;
+}
